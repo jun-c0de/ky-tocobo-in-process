@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .inner.collection-inner {
     text-align: center;
 
@@ -34,22 +35,53 @@
 
         .name {}
 
+=======
+.inner.collection-inner{
+    text-align: center;
+    .t-wrap {
+        margin-bottom: 7rem;
+        h2.tit {
+            color: var(--primary);
+        }
+        p.txt {
+            margin-top: 2rem;
+            color:var(--secondary);
+            font-size: 1.9rem;
+        }
+    }
+    .collection-slider{
+        .info-tit{
+
+        }
+        .kname{}
+        .name{
+            
+        }
+>>>>>>> 2444388e7b5be5e60f9ddf9f120e18cc42785d9b
         .img-wrap {
             background-color: var(--bg);
             width: 36rem;
             height: 36rem;
             display: flex;
             justify-content: center;
+<<<<<<< HEAD
             align-self: center;
             overflow: hidden;
             margin: auto;
 
+=======
+            align-items: center;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 1rem;
+>>>>>>> 2444388e7b5be5e60f9ddf9f120e18cc42785d9b
             img {
                 height: 110%;
                 width: 110%;
                 animation: up 2s infinite alternate;
             }
         }
+<<<<<<< HEAD
 
         .swiper-pagination {
             margin-top: 3rem;
@@ -58,20 +90,35 @@
             height: .4rem;
 
             .swiper-pagination-progressbar-fill {
+=======
+        .swiper-pagination{
+            margin-top: 3rem ;
+            position: static;
+            background-color: var(--bg);
+            height: .4rem;
+            .swiper-pagination-progressbar-fill{
+>>>>>>> 2444388e7b5be5e60f9ddf9f120e18cc42785d9b
                 background-color: var(--secondary);
             }
         }
     }
+<<<<<<< HEAD
 
     .prev,
     .next {
         position: absolute;
         top: 50%;
+=======
+    .prev,.next {
+        position: absolute;
+        top: 70%;
+>>>>>>> 2444388e7b5be5e60f9ddf9f120e18cc42785d9b
         transform: translateY(-50%);
         display: block;
         width: 3.5rem;
         height: 6.7rem;
     }
+<<<<<<< HEAD
 
     .prev {
         left: -5rem;
@@ -87,5 +134,13 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+=======
+    .prev {
+        left: -5rem;
+        // background-image: url('/img/...');
+    }
+    .next{
+        right: -5rem;
+>>>>>>> 2444388e7b5be5e60f9ddf9f120e18cc42785d9b
     }
 }
